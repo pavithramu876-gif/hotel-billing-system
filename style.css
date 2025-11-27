@@ -1,0 +1,84 @@
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    background: #f1f8f2; /* soft leaf green */
+    margin: 0;
+}
+
+header {
+    background: #2e7d32; /* deep banana leaf green */
+    color: white;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+nav a {
+    color: #e8ffe8;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 6px 10px;
+    border-radius: 6px;
+}
+
+nav a:hover {
+    background: #4caf50; /* brighter green hover */
+    color: rgb(132, 234, 112);
+}
+
+.banner-img {
+    width: 90%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-top: 20px;
+    border: 4px solid #4caf50; /* green border */
+}
+
+.menu-card {
+    display: inline-block;
+    width: 200px;
+    margin: 15px;
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 12px;
+    border: 2px solid #a5d6a7; /* soft leaf green */
+    box-shadow: 0 0 10px rgba(76, 175, 80, 0.2); /* greenish shadow */
+}
+
+.menu-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.small-img {
+    width: 200px;
+    border-radius: 10px;
+    border: 4px solid #4caf50;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 12px 25px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 8px;
+    background: #4caf50; /* green button */
+    color: white;
+    border: none;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #2e7d32; /* darker green */
+}
+
+input {
+    margin: 8px;
+    padding: 5px;
+    width: 80px;
+    border-radius: 5px;
+    border: 2px solid #81c784; /* light green border */
+}
